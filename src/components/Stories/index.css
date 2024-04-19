@@ -1,0 +1,216 @@
+.story-slider-div{
+    width: Fixed (304px)px;
+    height: Fixed (390px)px;
+    gap: 32px;
+    opacity: 0px;
+    background-color: white;
+}
+.stories-heading:hover{
+    color: red;
+}
+.slider-container-desktop{
+    display: none;
+}
+.story-slider-heading{
+    width: Fixed (304px)px;
+    height: Fixed (55px)px;
+    height: 60px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    gap: 4px;
+    border-radius: 20px 20px 0px 0px;
+    opacity: 0px;
+    background: #F5F3FC;
+    color: black;
+    font-weight: bold;
+}
+.story-slider-div-2{
+    width: Fixed (247px)px;
+    height: Hug (50px)px;
+    top: 85px;
+    left: 22px;
+    gap: 30px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-top: 17px;
+}
+.story-slider-div-2-1{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.story-slider-empty{
+    width: 51px;
+    margin: 10px;
+    height: 50px;
+    gap: 0px;
+    opacity: 0px;
+    background: #515151;
+    border-radius: 100px;
+}
+.story-name{
+    display: flex;
+    flex-direction: column;
+}
+.story-slider-name{
+    margin-bottom: 0%;
+}
+.story-slider-star{
+    margin-left: 19px;
+}
+.story-slider-service{
+    margin-left: 10px;
+    width: Hug (241px)px;
+    height: Hug (42px)px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+
+}
+.story-slider-para{
+    margin-left: 10px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #555555;
+
+}
+.story-div{
+    min-width: 360px;
+    max-width: 577px;
+    height: 609px;
+    top: 6082px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFF7E2;
+    padding-top: 20px;
+}
+.stories-heading{
+    font-family: DINPro-Bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.22px;
+    text-align: center;
+    font-family: DINPro-Bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.22px;
+    text-align: center;
+    color: #3A643B;
+
+}
+.slider-container{
+    background-color: transparent;
+}
+@media screen and (min-width: 577px) and (max-width: 1350px) {
+    .slider-container-desktop{
+        display: inline;
+        text-align: center;
+    }
+    .slider-container{
+        display: none;
+    }
+    .story-div{
+        min-width: 577px;
+        max-width: 1350px;
+    }
+    .story-slider-div{
+        width: 190px;
+        height: 350px;
+        background-color: transparent;
+        margin-left: 55px;
+    }
+    .story-slider-heading{
+        width: Fixed (304px)px;
+        height: Fixed (55px)px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .story-slider-empty{
+        width: 49px;
+        margin: 10px;
+        height: 40px;
+    }
+    .story-name{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .story-slider-name{
+        margin-bottom: 0%;
+    }
+    .story-slider-star{
+        margin-left: 9px;
+    }
+    .story-slider-service{
+        font-size: 13px;
+    
+    }
+    .story-slider-para{
+    font-size: 12px; 
+    }    
+    .story-slider-date{
+        font-size: 8px;
+        padding-right: 70px;
+        font-weight: bold;
+    }
+}
+@media screen and (min-width: 1351px) {
+    .slider-container-desktop{
+        display: inline;
+        text-align: center;
+    }
+    .slider-container{
+        display: none;
+    }
+    .story-div{
+        min-width: 1351px;
+        max-width: 1517px;
+    }
+    .story-slider-div{
+        width: 350px;
+        height: 450px;
+        background-color: transparent;
+        margin-left: 55px;
+    }
+    .story-slider-heading{
+        width: Fixed (304px)px;
+        height: Fixed (55px)px;
+        height: 50px;
+        font-size: 10px;
+    }
+    .story-slider-empty{
+        width: 70px;
+        margin: 10px;
+        height: 50px;
+    }
+    .story-name{
+        display: flex;
+        flex-direction: column;
+        font-size: 17px;
+    }
+    .story-slider-name{
+        margin-bottom: 0%;
+    }
+    .story-slider-star{
+        margin-left: 9px;
+    }
+    .story-slider-service{
+        font-size: 19px;
+    
+    }
+    .story-slider-para{
+        font-size: 16px; 
+    }    
+    .story-slider-date{
+        font-size: 18px;
+        padding-right: 70px;
+        font-weight: bold;
+    }
+}

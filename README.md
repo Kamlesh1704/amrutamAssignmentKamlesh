@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# Title
+    Amrutam Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Video Demo
+<video controls src="React App - Google Chrome 2024-04-20 00-39-56.mp4" title="Title"></video>
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+    The Amrutam Landing Page serves as the main entry point for visitors. It offers a comprehensive overview of the services, features, and offerings provided by Amrutam, an Ayurvedic healthcare platform.
+    The page is fully  Responsive and designed designed to welcome visitors, introduce them to the core principles of Ayurveda, and guide them through the various sections of the website.
 
-### `npm start`
+Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Header: Provides navigation links to different sections of the website. It includes a responsive menu for mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Welcome: Offers a warm welcome message to visitors and highlights the key benefits of Ayurveda. It encourages users to book appointments.
 
-### `npm test`
+    Service List: Presents a list of services provided by Amrutam, featuring icons and descriptions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Discover: Showcases the unique features and benefits of Ayurveda through engaging content and imagery.
 
-### `npm run build`
+    Consultation: Provides information about Ayurvedic consultations, personalized treatment plans, and expert guidance.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Approach: Explains Amrutam's unique approach to Ayurvedic healing, focusing on personalized treatment and holistic well-being.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Stories: Shares testimonials and success stories from satisfied customers, emphasizing the effectiveness of Ayurveda.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Experts: Introduces visitors to the team of Ayurvedic experts at Amrutam, highlighting their experience and expertise.
 
-### `npm run eject`
+    Amrutam App: Promotes the Amrutam Home App, a mobile application offering convenient access to Ayurvedic services and consultations.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Footer: Displays contact information, important links, and a newsletter subscription form.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React: Front-end JavaScript library for building user interfaces.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+CSS: Styling language used to customize the appearance of components.
 
-## Learn More
+Assets: Images and icons used to enhance the visual appeal of the page.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Setup and Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run the Amrutam website locally, follow these steps:
 
-### Code Splitting
+Install Create React App
+    npm install create-react-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Create react App by Command
+    npx create-react-app my-assignment
 
-### Analyzing the Bundle Size
+Navigate to the project directory:
+    cd my-assignment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies:
+    npm install
 
-### Making a Progressive Web App
+Start the development server:
+    npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Open the website in your browser:
+    http://localhost:3000
 
-### Advanced Configuration
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. react
+    installation: npm install react --save
+    install React from react : import React from 'react'
 
-### Deployment
+2. react-slick
+    installation: npm install react-slick --save
+    import Slider from react-slick: import Slider from 'react-slick'
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Design Files
 
-### `npm run build` fails to minify
+    Reference: https://www.figma.com/file/NADAwP83LQ2Pj0HKUeWJDn/Internshala---React-JS-%2F-React-Native?type=design&node-id=2004-3422&mode=design&t=Oy1qCdvqmA3R4PIP-0
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## File Structure and Component Hierarchy
+
+    my-assignment/
+    │
+    ├── public/
+    │   ├── favicon.ico
+    │   └── ...
+    │
+    ├── src/
+    │   ├── components/
+    │   │   ├── AmrutamApp/
+    │   │   ├── Approach/
+    │   │   ├── Consultation/
+    │   │   ├── Discover/
+    │   │   ├── Experts/
+    │   │   ├── Footer/
+    │   │   ├── Header/
+    │   │   ├── Home/
+    │   │   ├── ServiceList/
+    │   │   ├── Stories/
+    │   │   └── Welcome/
+    │   │       
+    │   ├── Assets/
+    │   │   ├── icons/
+    │   │   ├── images/
+    │   │
+    │   │
+    │   ├── App.js
+    │   ├── index.js
+    │   └── ...
+    │
+    ├── package.json
+    └── README.md
+
+## Contact
+
+For contributions or queries, feel free to reach out:
+
+    Website: https://www.amrutam.co.in

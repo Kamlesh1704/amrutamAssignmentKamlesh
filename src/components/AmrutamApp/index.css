@@ -1,0 +1,136 @@
+
+.app-div{
+    min-width: 360px;
+    max-width: 577px;
+    height: 959px;
+    top: 7581px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFF7E2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-app{
+    font-family: DINPro-Bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44.8px;
+    text-align: left;
+    color: #3A643B;
+    margin-top: 20px;
+}
+.app-para{
+    font-family: DINPro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.03px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #676767;
+
+}
+.get-heading:hover{
+    color: red;
+}
+.home-app:hover{
+    color: red;
+}
+.iphone-img{
+    width: 358px;
+    height: 328px;
+    top: 7802px;
+    left: 1px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+.diet{
+    font-family: DIN Medium;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+
+}
+.get-heading{
+    font-family: DINPro-Bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50.4px;
+    text-align: left;
+    color: #000000;
+
+}
+.google-play{
+    width: 270px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.app-store{
+    width: 272px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 20px;
+}
+.app-div-desktop{
+    display: none;
+}
+.content{
+    margin-left: 40px;
+}
+@media screen and (min-width: 576px) {
+    .app-div-desktop{
+        display: inline;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+    .app-div{
+        display: none;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .home-app{
+        font-size: 30px;
+    }
+    .app-para{
+        font-size: 20px ;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .get-heading{
+        font-size: 25px;
+    }
+    .app-store{
+        height: 75px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    .google-play{
+        height: 75px;
+        width: 200px;
+    }
+    .store-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .iphone-img{
+        height: 400px;
+        width: 500px;
+    }
+}

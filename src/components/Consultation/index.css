@@ -1,0 +1,195 @@
+.consultation-div-1{
+    min-width: 360px;
+    max-width: 577px;
+    top: 2405px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFAEC;
+    padding-top: 15px;
+    margin-bottom: 50px;
+    max-width: 577px;
+    margin: 0%;
+}
+
+.consultation-heading-1{
+    font-family: DINPro-Bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.22px;
+    text-align: center;
+    color: #3A643B;
+
+}
+
+.list-card{
+    min-width: Fixed (328px)px;
+    max-width: 360px;
+    padding: 49px 24px 49px 24px;
+    gap: 10px;
+    border-radius: 20px ;
+    border: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border-top: 5px solid #3A643B;
+    box-shadow: 0px 4px 8.9px 0px #0000000F;
+    margin: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+.list-heading-consult{
+    font-family: DINPro-Bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.91px;
+    text-align: center;
+    color: #3A643B;
+}
+.list-para-consult{
+    font-family: DINPro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.76px;
+    text-align: left;
+    color: #000000; 
+}
+.list-img-consult{
+    min-width: 300px;
+    max-width: 400px;
+    height: 274px;
+    gap: 0px;
+    border-radius: 20px;
+    border: 5px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 4px 8.9px 0px #0000000F;
+    margin-right: 15px;  
+}
+.list-consult-item{
+    list-style-type: none;
+    margin-right: 15px;
+}
+.consultation-div-2{
+    min-width: 363px;
+    max-width: 577px;
+    height: 514px;
+    top: 4760px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/d45f/d3de/6f20e70fa75049c9e8140baa6d7e6531?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YJ4Zw4xtniavMY~CBUWygZYq6Ax70~TZ7VRjjJkbGvA~8uGXylRRZK9mnOktv86mJBOVN0GZAopUjpHWRAaV6kT62oY~HX~OQiOQdYnXFU9cUBhn-Xr7HiTIMvzKsUZU4NIomEWuECRsM164ZYe1~QDfSsMpD9XIIZKXhDLDzJlnQLmhzRt-higCBNlH~ngbaw-1LSuwYSAM6FLax53p2iHXg26ykwLZxKjZel5Uu-lFL-ROe~RYRBsNfWUgtganiCFrcvV3gBJVJyU-9uWF3CxKaxEWv52ofmVm4bsTBrEgUYUvUOBnLNTmAeP5JwncXeMEXSI-FLeBtnAyaFaySA__");    
+    background-size: cover;
+    text-align: center;
+}
+.consultation-div-2-heading{
+    font-family: 'DINPro';
+    font-size: 30px;
+    padding: 8px;
+    font-weight: 600;
+    line-height: 41.22px;
+    text-align: center;
+    color: #FFF7E2;
+    box-shadow: 0px 4px 10.6px 0px #0000004F;
+}
+.consultation-div-2-button{
+    background: #3A643B;
+    border: none;
+    border-radius: 15px;
+    width: Hug (257px)px;
+    height: Fixed (66px)px;
+    padding: 24px 40px 21px 40px;
+    gap: 10px;
+    opacity: 0px;
+    color: white;    
+
+}
+.consultation-div-shadow{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.66) 2.52%, rgba(14, 14, 14, 0.54) 100%);
+    min-width: 363px;
+    height: 515px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.consuultation-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.consultation-heading-1:hover{
+    color: red;
+}
+.consultation-div-2-button:hover{
+    background-color: rgb(121, 55, 55);
+}
+.list-card:hover{
+    transform: scale(1.1);
+}
+@media screen and (min-width: 577px) {
+    .consuultation-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .consultation-div-1{
+        min-width:  577px;
+        max-width: 1517px;
+        height: 736px;
+        top: 1719px;
+        gap: 0px;
+        opacity: 0px;
+        background: linear-gradient(110.23deg, #FFF7E2 1.25%, #FFFAEE 100%);
+    }
+    .list-img-consult{
+        width: 400px;
+        height: 244px;
+        margin-top: 10px;
+    }
+    .list-card{
+        height: 194px;
+        margin: 10px;
+        max-width: 400px;
+    }
+    .consultation-div-2{
+        min-width: 577px;
+        max-width: 1517px;
+        background-size: cover;
+    }
+    .consultation-div-shadow{
+        min-width: 577px;
+        max-width: 1517px;
+    }
+    .consultation-div-2-heading{
+        font-family: DINPro;
+        font-size: 54px;
+        font-weight: 500;
+        line-height: 82.43px;
+        text-align: center;
+        color: #FFF7E2;
+        box-shadow:none;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1350px) {
+    .list-card{
+        height: 184px;
+        width: 150px;
+        padding-top: 0%;
+    }
+    .list-img-consult{
+        height: 184px;
+        min-width: 70px;
+        max-width: 170px;
+    }
+    .list-heading-consult{
+        font-size: 12px;
+        margin: 0%;
+    }
+    .list-para-consult{
+        font-size: 10px;
+        margin: 0%;
+    }
+    .consultation-div-2-heading{
+        font-size: 30px;
+    }
+}

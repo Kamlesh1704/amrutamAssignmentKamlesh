@@ -1,0 +1,155 @@
+.discover-heading{
+    font-family: DINPro-Bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #3A643B;
+
+}
+.discover-para{
+    font-family: DINPro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #666666;
+}
+.discover-div{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.discover-list-li{
+    height: 170px;
+    width: 110px;
+    padding: 17px 9px 17px 9px;
+    gap: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0px;
+    border: rgb(196, 193, 193) solid 1px;
+    margin: 10px;
+}
+.discover-img-li{
+    width: Fixed (63px)px;
+    height: Fixed (59px)px;
+    gap: 10px;
+    opacity: 0px;
+    margin: 0%;
+}
+.discover-heading-li{
+    font-family: DINPro-Bold;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.32px;
+    text-align: center;
+    color: #000000; 
+    margin: 0%;
+}
+.discover-para-li{
+    font-family: DINPro;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16.74px;
+    text-align: center;
+    color: #6D6B6B;
+    margin: 0%;
+}
+.discover-img-div{
+    text-align: center;
+    background-color: rgb(235, 243, 246);
+    border: none;
+    border-radius: 40px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-list-1{
+    display: none;
+}
+.mobile-list-2{
+    display: none;
+}
+.discover-list-ul{
+    flex-wrap: wrap;
+    display: flex;   
+}
+.flex-list{
+    display: none;
+}
+.list-items-1{
+    width: Hug (349px)px;
+    height: Hug (100px)px;
+    top: 293px;
+    left: 134px;
+    gap: 16px;
+    opacity: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    width: 330px;
+    height: 150px;
+}
+.headings{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.paras{
+    font-size: 10px;
+}
+.yoga-girl{
+    height: 350px;
+}
+.order{
+    order: 2;
+}
+.discover-heading:hover{
+    color: red;
+}
+@media screen and (min-width: 577px) {
+    .discover-list-ul{
+        display: none;
+    }
+    .mobile-list-1{
+        display: inline;
+    }
+    .mobile-list-2{
+        display: inline;
+    }
+    .flex-list{
+        display: flex;
+        align-items: center;
+    }
+    .yoga-girl-mobile{
+      display: none;
+    }
+    .list-items-1{
+        width: Hug (349px)px;
+        height: Hug (100px)px;
+        top: 293px;
+        left: 134px;
+        gap: 16px;
+        opacity: 0px;
+    
+    }
+    .discover-heading{
+        font-size: 40px;
+    }
+    .discover-para{
+        font-size: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .discover-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

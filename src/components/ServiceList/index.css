@@ -1,0 +1,49 @@
+.service-item{
+    width: Fixed (360px)px;
+    height: Fixed (122px)px;
+    top: 644px;
+    padding: 35px 16px 35px 16px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFF7E2;
+    border: 1px solid #E9E9E9;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #3A643B;
+    font-family: DINPro-Bold;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+
+}
+.image-div{
+    width:70px;
+    height: 50px;
+    gap: 10px;
+    opacity: 0px;
+    border: 1px solid #3A643B;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 10px;
+}
+.service-list{
+    margin: 0%;
+    margin-left: -39px;
+}
+.service-img{
+    height: 40px;
+    width: 30px;
+}
+@media screen and (min-width: 577px) {
+    .service-list{
+        display: flex;
+    }
+    .service-item{
+        height: 50px;
+    }
+}
