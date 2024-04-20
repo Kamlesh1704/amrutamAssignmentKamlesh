@@ -4,7 +4,7 @@ import './index.css'; // Importing custom CSS for Welcome component
 // Welcome component
 const Welcome = () => {
     return (
-        <div className="welcome-mobile-div">
+        <div className="welcome-div" id='home'>
             <div className="welcome-gradient">
                 <div className="welcome-content-div">
                     <p className="namaste-para">Namaste, Welcome to Amrutam</p>

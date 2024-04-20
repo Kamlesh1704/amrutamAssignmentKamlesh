@@ -118,7 +118,7 @@ const Experts = () => {
               {/* Button to find more experts */}
               <button type="button" className='more-expert'>
                 <p>Find More Experts</p>
-                <img src={arrow} alt="arrow" className='arrow'/>
+                <img src={arrow} alt="arrow" />
               </button>
             </div>                    
         </div>

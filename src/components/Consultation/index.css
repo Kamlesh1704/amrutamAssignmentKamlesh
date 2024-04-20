@@ -35,6 +35,7 @@
     margin: 5px;
     padding-bottom: 5px;
     margin-top: 5px;
+    transition: 2sec ease;
 }
 .list-heading-consult{
     font-family: DINPro-Bold;
@@ -98,7 +99,7 @@
     gap: 10px;
     opacity: 0px;
     color: white;    
-
+    transition: background-color 0.5s ease;
 }
 .consultation-div-shadow{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.66) 2.52%, rgba(14, 14, 14, 0.54) 100%);
@@ -120,10 +121,19 @@
     color: red;
 }
 .consultation-div-2-button:hover{
-    background-color: rgb(121, 55, 55);
+    background-color: rgb(214, 83, 83);
+    transform: scale(1.02);
 }
 .list-card:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
+    border-top: 5px solid red;
+    background-color: #f5ebeb;
+}
+.list-heading-consult:hover{
+    color: red;
+}
+.consultation-div-2-heading:hover{
+    color: rgb(133, 35, 35);
 }
 @media screen and (min-width: 577px) {
     .consuultation-list{
@@ -169,6 +179,9 @@
         padding-left: 150px;
         padding-right: 150px;
     }
+    .list-img-consult:hover{
+        height: 250px;
+    }
 }
 @media screen and (min-width: 577px) and (max-width: 1350px) {
     .list-card{
@@ -191,5 +204,8 @@
     }
     .consultation-div-2-heading{
         font-size: 30px;
+    }
+    .list-img-consult:hover{
+        height: 250px;
     }
 }

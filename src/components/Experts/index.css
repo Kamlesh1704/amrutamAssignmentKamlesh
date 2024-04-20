@@ -19,6 +19,8 @@
 .more-expert:hover{
     color: red;
     border-color: red;
+    transform: scale(1.1);
+    background-color: #54eae563;
 }
 .session:hover{
     background-color: rgb(97, 41, 41);
@@ -35,6 +37,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 .expert-name{
     font-family: Gotham Rounded;
@@ -126,6 +129,9 @@
     display:flex;
     align-items: center;
     margin-left: 650px;
+}
+.expert-item:hover{
+    transform: scale(1.03);
 }
 @media screen and (min-width: 577px) and (max-width: 1350px) {
     .slider-container-expert-desktop{

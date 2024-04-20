@@ -113,6 +113,18 @@
 .discover-heading:hover{
     color: red;
 }
+.list-items-1:hover{
+    transform: scale(1.1);
+}
+.headings:hover{
+    color: red;
+}
+.discover-list-li:hover{
+    transform: scale(1.1);
+}
+.discover-heading-li:hover{
+    color: red;
+}
 @media screen and (min-width: 577px) {
     .discover-list-ul{
         display: none;

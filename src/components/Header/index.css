@@ -26,17 +26,17 @@
     padding-right: 10px;
 }
 .nav-link:hover {
-    color: green;
-    border-bottom: 1px solid green;
+    color: red;
+    border-bottom: 1px solid red;
     border-radius: 5px;
-    font-size: 17px;
+    font-size: 18px;
 }
 .navbar-desktop-div{
     display: none;
 }
 .navbar-mobile{
     width: 360px;
-    height: 54px;
+    height: 30px;
     padding: 51px 115px 29px 19px;
     gap: 10px;
     opacity: 0px;
@@ -44,6 +44,8 @@
     max-width: 577px;
     display: flex;
     align-items: center;
+    position:fixed;
+    z-index: 1000;
 }
 .popup-div{
     height: 300px;
@@ -55,7 +57,7 @@
 }
 .popup-link{
     padding: 5px;
-    color: rgb(226, 19, 195);
+    color: rgb(252, 78, 78);
 }
 .popup-link:hover{
     color: green;
@@ -100,5 +102,11 @@
         height: 84px;
         min-width: 577px;
         width: 1520px;
+        position:fixed;
+        background: #FFF7E2;
+        z-index: 1000;
+    }
+    .navbar-nav{
+        margin-right: 24px;
     }
 }

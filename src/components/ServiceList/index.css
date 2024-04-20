@@ -39,6 +39,14 @@
     height: 40px;
     width: 30px;
 }
+.service-item:hover{
+    color: red;
+    background-color: #f3deaa;
+}
+.image-div:hover{
+    border: 1.5px solid red;
+    color: red;
+}
 @media screen and (min-width: 577px) {
     .service-list{
         display: flex;

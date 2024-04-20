@@ -52,7 +52,7 @@ const Header = () => {
            <img src={logo} className="logo" />
      </nav>
      {/* Desktop navigation */}
-     <nav className="navbar-desktop-div" id='home'>
+     <nav className="navbar-desktop-div">
        {/* Logo */}
        <a className="navbar-brand" href="#">
          <img src={logo} className="logo" />
