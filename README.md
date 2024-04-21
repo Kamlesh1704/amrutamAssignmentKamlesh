@@ -2,7 +2,7 @@
 Amrutam Landing Page
 
 # Video Demo
-![Video Demo](https://github.com/Kamlesh1704/amrutamAssignmentKamlesh/raw/main/React%20App%20-%20Google%20Chrome%202024-04-21%2000-03-00.mp4)
+![Video Demo](https://github.com/Kamlesh1704/amrutamAssignmentKamlesh/raw/main/react-app-google-chrome-2024-04-21-11-31-36_Tqk9cYPe.mp4)
 
 # Live Link
 
