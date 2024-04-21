@@ -2,7 +2,7 @@
 Amrutam Landing Page
 
 # Video Demo
-![Video Demo](https://github.com/Kamlesh1704/amrutamAssignmentKamlesh/raw/main/react-app-google-chrome-2024-04-21-11-31-36_Tqk9cYPe.mp4)
+[Video Demo](https://github.com/Kamlesh1704/amrutamAssignmentKamlesh/raw/main/react-app-google-chrome-2024-04-21-11-31-36_Tqk9cYPe.mp4)
 
 # Live Link
 
@@ -15,65 +15,59 @@ The page is fully  Responsive and designed designed to welcome visitors, introdu
 
 Components
 
-Header: Provides navigation links to different sections of the website. It includes a responsive menu for mobile devices.
+**Header**: Provides navigation links to different sections of the website. It includes a responsive menu for mobile devices.
 
-Welcome: Offers a warm welcome message to visitors and highlights the key benefits of Ayurveda. It encourages users to book appointments.
+**Welcome**: Offers a warm welcome message to visitors and highlights the key benefits of Ayurveda. It encourages users to book appointments.
 
-Service List: Presents a list of services provided by Amrutam, featuring icons and descriptions.
+**Service List**: Presents a list of services provided by Amrutam, featuring icons and descriptions.
 
-Discover: Showcases the unique features and benefits of Ayurveda through engaging content and imagery.
+**Discover**: Showcases the unique features and benefits of Ayurveda through engaging content and imagery.
 
-Consultation: Provides information about Ayurvedic consultations, personalized treatment plans, and expert guidance.
+**Consultation**: Provides information about Ayurvedic consultations, personalized treatment plans, and expert guidance.
 
-Approach: Explains Amrutam's unique approach to Ayurvedic healing, focusing on personalized treatment and holistic well-being.
+**Approach**: Explains Amrutam's unique approach to Ayurvedic healing, focusing on personalized treatment and holistic well-being.
 
-Stories: Shares testimonials and success stories from satisfied customers, emphasizing the effectiveness of Ayurveda.
+**Stories**: Shares testimonials and success stories from satisfied customers, emphasizing the effectiveness of Ayurveda.
 
-Experts: Introduces visitors to the team of Ayurvedic experts at Amrutam, highlighting their experience and expertise.
+**Experts**: Introduces visitors to the team of Ayurvedic experts at Amrutam, highlighting their experience and expertise.
 
-Amrutam App: Promotes the Amrutam Home App, a mobile application offering convenient access to Ayurvedic services and consultations.
+**Amrutam App**: Promotes the Amrutam Home App, a mobile application offering convenient access to Ayurvedic services and consultations.
 
-Footer: Displays contact information, important links, and a newsletter subscription form.
+**Footer**: Displays contact information, important links, and a newsletter subscription form.
 
 ## Tech Stack
 
-React: Front-end JavaScript library for building user interfaces.
+**React**: Front-end JavaScript library for building user interfaces.
 
-CSS: Styling language used to customize the appearance of components.
+**CSS**: Styling language used to customize the appearance of components.
 
-Assets: Images and icons used to enhance the visual appeal of the page.
+**Assets**: Images and icons used to enhance the visual appeal of the page.
 
 ## Setup and Installation
 
 To run the Amrutam website locally, follow these steps:   
 
-Install Create React App   
-    npm install create-react-app   
+Install Create React App: `npm install create-react-app`  
 
-Create react App by Command   
-    npx create-react-app my-assignment   
+Create react App by Command: `npx create-react-app my-assignment`   
 
-Navigate to the project directory:   
-    cd my-assignment   
+Navigate to the project directory: `cd my-assignment`   
 
-Install dependencies:   
-    npm install   
+Install dependencies: `npm install`   
 
-Start the development server:   
-    npm start   
+Start the development server: `npm start`   
 
-Open the website in your browser:
-    http://localhost:3000
+Open the website in your browser: http://localhost:3000
 
 ## Dependencies
 
 1. react   
-    installation:    npm install react --save   
-    install React from react :    import React from 'react'   
+    installation: `npm install react --save`   
+    install React from react : `import React from 'react'`   
 
 2. react-slick   
-    installation:    npm install react-slick --save   
-    import Slider from react-slick:    import Slider from 'react-slick'   
+    installation: `npm install react-slick --save`   
+    import Slider from react-slick: `import Slider from 'react-slick'`   
 
 ## Design Files
 Reference: https://www.figma.com/file/NADAwP83LQ2Pj0HKUeWJDn/Internshala---React-JS-%2F-React-Native?type=design&node-id=2004-3422&mode=design&t=Oy1qCdvqmA3R4PIP-0
